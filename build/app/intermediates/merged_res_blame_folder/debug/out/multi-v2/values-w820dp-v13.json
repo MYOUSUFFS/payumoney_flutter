@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.payubiz.payu_checkoutpro_flutter_example.app-mergeDebugResources-53:/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ND\\.gradle\\caches\\transforms-3\\73ad2475a5d7cb6212eab844692d6fd6\\transformed\\jetified-threeds-helper-sdk-1.0.7\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

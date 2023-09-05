@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- set below colors for colorPrimary, colorPrimaryDark and colorAccent of UI SDK -->
+    <color name="one_payu_colorPrimary">#4994EC</color>
+    <color name="one_payu_colorPrimaryDark">#4994EC</color>
+    <color name="one_payu_colorAccent">#4994EC</color>
+    <color name="one_payu_baseTextColor">#ffffff</color> //Text color of header text and button text
+
+    <color name="colorPrimary">#4994EC</color>
+    <color name="colorPrimaryDark">#4994EC</color>
+    <color name="colorAccent">#4994EC</color>
+    <color name="light_white">#fcfcfc</color>
+    <color name="payumoney_black">#000000</color>
+    <color name="app_button_color">#4994EC</color>
+
+</resources>

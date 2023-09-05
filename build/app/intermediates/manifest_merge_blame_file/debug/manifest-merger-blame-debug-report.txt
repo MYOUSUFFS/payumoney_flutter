@@ -1,0 +1,539 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.payubiz.payu_checkoutpro_flutter_example"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\debug\AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.RECEIVE_SMS" /> <!-- This permission is required to check if internet is connected or not -->
+16-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:5:5-69
+16-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:5:22-67
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:12:5-79
+17-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:13:5-76
+18-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:13:22-73
+19
+20    <queries>
+20-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:15:5-25:15
+21
+22        <!-- For privacy policy external browser call -->
+23        <intent>
+23-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:18:9-24:18
+24            <action android:name="android.intent.action.VIEW" />
+24-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:19:13-65
+24-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:19:21-62
+25
+26            <category android:name="android.intent.category.BROWSABLE" />
+26-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:21:13-74
+26-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:21:23-71
+27
+28            <data android:scheme="https" />
+28-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:23:13-44
+28-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:23:19-41
+29        </intent>
+30
+31        <package android:name="in.amazon.mShop.android.shopping" />
+31-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:15:9-68
+31-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:15:18-65
+32        <package android:name="com.upi.axispay" />
+32-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:16:9-51
+32-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:16:18-48
+33        <package android:name="com.axis.mobile" />
+33-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:17:9-51
+33-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:17:18-48
+34        <package android:name="com.fisglobal.bandhanupi.app" />
+34-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:18:9-64
+34-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:18:18-61
+35        <package android:name="com.bankofbaroda.upi" />
+35-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:19:9-56
+35-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:19:18-53
+36        <package android:name="in.org.npci.upiapp" />
+36-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:20:9-54
+36-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:20:18-51
+37        <package android:name="com.canarabank.mobility" />
+37-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:21:9-59
+37-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:21:18-56
+38        <package android:name="com.citiuat" />
+38-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:22:9-47
+38-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:22:18-44
+39        <package android:name="com.dbs.in.digitalbank" />
+39-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:23:9-58
+39-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:23:18-55
+40        <package android:name="com.olive.dcb.upi" />
+40-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:24:9-53
+40-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:24:18-50
+41        <package android:name="com.finopaytech.bpayfino" />
+41-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:25:9-60
+41-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:25:18-57
+42        <package android:name="com.freecharge.android" />
+42-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:26:9-58
+42-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:26:18-55
+43        <package android:name="com.google.android.apps.nbu.paisa.user" />
+43-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:27:9-74
+43-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:27:18-71
+44        <package android:name="com.snapwork.hdfc" />
+44-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:28:9-53
+44-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:28:18-50
+45        <package android:name="com.mgs.hsbcupi" />
+45-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:29:9-51
+45-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:29:18-48
+46        <package android:name="com.csam.icici.bank.imobile" />
+46-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:30:9-63
+46-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:30:18-60
+47        <package android:name="com.icicibank.pockets" />
+47-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:31:9-57
+47-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:31:18-54
+48        <package android:name="com.euronet.iobupi" />
+48-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:32:9-54
+48-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:32:18-51
+49        <package android:name="com.mgs.induspsp" />
+49-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:33:9-52
+49-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:33:18-49
+50        <package android:name="com.fss.jnkpsp" />
+50-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:34:9-50
+50-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:34:18-47
+51        <package android:name="com.jio.myjio" />
+51-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:35:9-49
+51-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:35:18-46
+52        <package android:name="com.mycompany.kvb" />
+52-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:36:9-53
+52-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:36:18-50
+53        <package android:name="com.kvb.mobilebanking" />
+53-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:37:9-57
+53-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:37:18-54
+54        <package android:name="com.lcode.smartz" />
+54-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:38:9-52
+54-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:38:18-49
+55        <package android:name="com.msf.kbank.mobile" />
+55-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:39:9-56
+55-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:39:18-53
+56        <package android:name="com.upi.federalbank.org.lotza" />
+56-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:40:9-65
+56-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:40:18-62
+57        <package android:name="com.infrasofttech.mahaupi" />
+57-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:41:9-61
+57-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:41:18-58
+58        <package android:name="com.mipay.in.wallet" />
+58-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:42:9-55
+58-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:42:18-52
+59        <package android:name="com.myairtelapp" />
+59-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:43:9-51
+59-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:43:18-48
+60        <package android:name="com.mobikwik_new" />
+60-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:44:9-52
+60-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:44:18-49
+61        <package android:name="com.onymy.paybee.prod" />
+61-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:45:9-57
+61-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:45:18-54
+62        <package android:name="net.one97.paytm" />
+62-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:46:9-51
+62-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:46:18-48
+63        <package android:name="com.phonepe.app" />
+63-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:47:9-51
+63-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:47:18-48
+64        <package android:name="com.Version1" />
+64-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:48:9-48
+64-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:48:18-45
+65        <package android:name="com.samsung.android.spay" />
+65-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:49:9-60
+65-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:49:18-57
+66        <package android:name="com.sbi.upi" />
+66-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:50:9-47
+66-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:50:18-44
+67        <package android:name="com.SIBMobile" />
+67-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:51:9-49
+67-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:51:18-46
+68        <package android:name="com.truecaller" />
+68-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:52:9-50
+68-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:52:18-47
+69        <package android:name="com.infrasoft.uboi" />
+69-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:53:9-54
+69-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:53:18-51
+70        <package android:name="com.lcode.ucoupi" />
+70-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:54:9-52
+70-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:54:18-49
+71        <package android:name="com.YesBank" />
+71-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:55:9-47
+71-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:55:18-44
+72        <package android:name="com.dreamplug.androidapp" />
+72-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:56:9-60
+72-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:56:18-57
+73        <package android:name="money.bullet" />
+73-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:57:9-48
+73-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:57:18-45
+74        <package android:name="com.phonepe.app.preprod" />
+74-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:9:9-59
+74-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:9:18-56
+75        <package android:name="com.phonepe.simulator" />
+75-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:10:9-57
+75-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:10:18-54
+76        <package android:name="com.phonepe.simulator.debug" />
+76-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:11:9-63
+76-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:11:18-60
+77
+78        <intent>
+78-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:13:9-19:18
+79            <action android:name="android.intent.action.VIEW" />
+79-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:19:13-65
+79-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:19:21-62
+80
+81            <data
+81-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:23:13-44
+82                android:host="pay"
+83                android:scheme="upi" />
+83-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:23:19-41
+84        </intent>
+85        <intent>
+85-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:20:9-26:18
+86            <action android:name="android.intent.action.VIEW" />
+86-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:19:13-65
+86-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:19:21-62
+87
+88            <data
+88-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:23:13-44
+89                android:host="upi"
+90                android:scheme="mandate" />
+90-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:23:19-41
+91        </intent>
+92    </queries>
+93
+94    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+94-->[in.payu:payu-asset-library-android:1.7.4] C:\Users\ND\.gradle\caches\transforms-3\b4f5f437f87b4608eda2c1e533ed4601\transformed\jetified-payu-asset-library-android-1.7.4\AndroidManifest.xml:11:5-80
+94-->[in.payu:payu-asset-library-android:1.7.4] C:\Users\ND\.gradle\caches\transforms-3\b4f5f437f87b4608eda2c1e533ed4601\transformed\jetified-payu-asset-library-android-1.7.4\AndroidManifest.xml:11:22-77
+95    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+95-->[in.payu:payu-asset-library-android:1.7.4] C:\Users\ND\.gradle\caches\transforms-3\b4f5f437f87b4608eda2c1e533ed4601\transformed\jetified-payu-asset-library-android-1.7.4\AndroidManifest.xml:12:5-81
+95-->[in.payu:payu-asset-library-android:1.7.4] C:\Users\ND\.gradle\caches\transforms-3\b4f5f437f87b4608eda2c1e533ed4601\transformed\jetified-payu-asset-library-android-1.7.4\AndroidManifest.xml:12:22-78
+96
+97    <meta-data
+97-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:32:5-34:32
+98        android:name="android.webkit.WebView.EnableSafeBrowsing"
+98-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:33:9-65
+99        android:value="true" />
+99-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:34:9-29
+100
+101    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+101-->[com.minkasu:minkasu-2fa:3.0.0] C:\Users\ND\.gradle\caches\transforms-3\6b1a7eed5d6b02ef9c33fbb2041a59a1\transformed\jetified-minkasu-2fa-3.0.0\AndroidManifest.xml:12:5-74
+101-->[com.minkasu:minkasu-2fa:3.0.0] C:\Users\ND\.gradle\caches\transforms-3\6b1a7eed5d6b02ef9c33fbb2041a59a1\transformed\jetified-minkasu-2fa-3.0.0\AndroidManifest.xml:12:22-71
+102
+103    <application
+103-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:6:5-30:19
+104        android:allowBackup="false"
+104-->[com.minkasu:minkasu-2fa:3.0.0] C:\Users\ND\.gradle\caches\transforms-3\6b1a7eed5d6b02ef9c33fbb2041a59a1\transformed\jetified-minkasu-2fa-3.0.0\AndroidManifest.xml:14:18-45
+105        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+105-->[androidx.core:core:1.7.0] C:\Users\ND\.gradle\caches\transforms-3\1f32c5f57fc180f86d1e5fe6cfe09d78\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+106        android:debuggable="true"
+107        android:icon="@mipmap/ic_launcher"
+107-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:7:9-43
+108        android:label="@string/app_name"
+108-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:28:9-41
+109        android:roundIcon="@mipmap/ic_launcher"
+109-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:8:9-48
+110        android:supportsRtl="true"
+110-->[in.payu:threeds-helper-sdk:1.0.7] C:\Users\ND\.gradle\caches\transforms-3\73ad2475a5d7cb6212eab844692d6fd6\transformed\jetified-threeds-helper-sdk-1.0.7\AndroidManifest.xml:32:18-44
+111        android:theme="@style/AppTheme"
+111-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:11:9-40
+112        android:usesCleartextTraffic="true" >
+112-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:9:9-44
+113        <activity
+113-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:13:9-24:20
+114            android:name="com.payubiz.payu_checkoutpro_flutter_example.MainActivity"
+114-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:14:13-41
+115            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+115-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:16:13-83
+116            android:exported="true"
+116-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:19:13-36
+117            android:label="@string/app_name"
+117-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:15:13-45
+118            android:screenOrientation="portrait"
+118-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:18:13-49
+119            android:windowSoftInputMode="adjustResize" >
+119-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:17:13-55
+120            <intent-filter>
+120-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:20:13-23:29
+121                <action android:name="android.intent.action.MAIN" />
+121-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:21:17-68
+121-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:21:25-66
+122
+123                <category android:name="android.intent.category.LAUNCHER" />
+123-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:22:17-76
+123-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:22:27-74
+124            </intent-filter>
+125        </activity>
+126        <!--
+127             Don't delete the meta-data below.
+128             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+129        -->
+130        <meta-data
+130-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:27:9-29:33
+131            android:name="flutterEmbedding"
+131-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:28:13-44
+132            android:value="2" />
+132-->E:\tools\PayUCheckoutPro-Flutter-main\example\android\app\src\main\AndroidManifest.xml:29:13-30
+133        <meta-data
+133-->[in.payu:payu-checkout-pro:2.0.21] C:\Users\ND\.gradle\caches\transforms-3\a469832fcf181f23ee289c468ff6e0b0\transformed\jetified-payu-checkout-pro-2.0.21\AndroidManifest.xml:14:9-16:32
+134            android:name="io.sentry.proguard-uuid"
+134-->[in.payu:payu-checkout-pro:2.0.21] C:\Users\ND\.gradle\caches\transforms-3\a469832fcf181f23ee289c468ff6e0b0\transformed\jetified-payu-checkout-pro-2.0.21\AndroidManifest.xml:15:13-51
+135            android:value="" />
+135-->[in.payu:payu-checkout-pro:2.0.21] C:\Users\ND\.gradle\caches\transforms-3\a469832fcf181f23ee289c468ff6e0b0\transformed\jetified-payu-checkout-pro-2.0.21\AndroidManifest.xml:16:13-29
+136
+137        <activity
+137-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:30:9-33:81
+138            android:name="com.payu.ui.view.activities.CheckoutActivity"
+138-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:31:13-72
+139            android:screenOrientation="portrait"
+139-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:32:13-49
+140            android:windowSoftInputMode="stateVisible|adjustResize|adjustPan" />
+140-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:33:13-78
+141
+142        <meta-data
+142-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:35:9-37:57
+143            android:name="preloaded_fonts"
+143-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:36:13-43
+144            android:resource="@array/preloaded_fonts" />
+144-->[in.payu:payu-checkout-pro-ui:1.9.16] C:\Users\ND\.gradle\caches\transforms-3\222e273a44d816a39271448390c04d0f\transformed\jetified-payu-checkout-pro-ui-1.9.16\AndroidManifest.xml:37:13-54
+145
+146        <activity
+146-->[in.payu:payu-gpay:3.0.0] C:\Users\ND\.gradle\caches\transforms-3\7ed30f8d7de585b265c2286a3eddcc6d\transformed\jetified-payu-gpay-3.0.0\AndroidManifest.xml:12:9-14:78
+147            android:name="com.payu.gpay.GPayResponseActivity"
+147-->[in.payu:payu-gpay:3.0.0] C:\Users\ND\.gradle\caches\transforms-3\7ed30f8d7de585b265c2286a3eddcc6d\transformed\jetified-payu-gpay-3.0.0\AndroidManifest.xml:13:13-62
+148            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
+148-->[in.payu:payu-gpay:3.0.0] C:\Users\ND\.gradle\caches\transforms-3\7ed30f8d7de585b265c2286a3eddcc6d\transformed\jetified-payu-gpay-3.0.0\AndroidManifest.xml:14:13-75
+149
+150        <meta-data
+150-->[in.payu:payu-gpay:3.0.0] C:\Users\ND\.gradle\caches\transforms-3\7ed30f8d7de585b265c2286a3eddcc6d\transformed\jetified-payu-gpay-3.0.0\AndroidManifest.xml:16:9-18:36
+151            android:name="com.google.android.gms.wallet.api.enabled"
+151-->[in.payu:payu-gpay:3.0.0] C:\Users\ND\.gradle\caches\transforms-3\7ed30f8d7de585b265c2286a3eddcc6d\transformed\jetified-payu-gpay-3.0.0\AndroidManifest.xml:17:13-69
+152            android:value="true" />
+152-->[in.payu:payu-gpay:3.0.0] C:\Users\ND\.gradle\caches\transforms-3\7ed30f8d7de585b265c2286a3eddcc6d\transformed\jetified-payu-gpay-3.0.0\AndroidManifest.xml:18:13-33
+153
+154        <activity
+154-->[in.payu:native-otp-assist:1.3.7] C:\Users\ND\.gradle\caches\transforms-3\febbe0bafab4fc76f5ba38e525a2ac2c\transformed\jetified-native-otp-assist-1.3.7\AndroidManifest.xml:14:9-17:57
+155            android:name="com.payu.otpassist.PayUOtpAssistActivity"
+155-->[in.payu:native-otp-assist:1.3.7] C:\Users\ND\.gradle\caches\transforms-3\febbe0bafab4fc76f5ba38e525a2ac2c\transformed\jetified-native-otp-assist-1.3.7\AndroidManifest.xml:15:13-68
+156            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+156-->[in.payu:native-otp-assist:1.3.7] C:\Users\ND\.gradle\caches\transforms-3\febbe0bafab4fc76f5ba38e525a2ac2c\transformed\jetified-native-otp-assist-1.3.7\AndroidManifest.xml:16:13-75
+157            android:windowSoftInputMode="stateHidden" />
+157-->[in.payu:native-otp-assist:1.3.7] C:\Users\ND\.gradle\caches\transforms-3\febbe0bafab4fc76f5ba38e525a2ac2c\transformed\jetified-native-otp-assist-1.3.7\AndroidManifest.xml:17:13-54
+158
+159        <meta-data
+159-->[in.payu:phonepe-intent:1.7.5] C:\Users\ND\.gradle\caches\transforms-3\6e4d51b4206853fabbbb0929a1e4ca34\transformed\jetified-phonepe-intent-1.7.5\AndroidManifest.xml:14:9-16:37
+160            android:name="com.phonepe.android.sdk.Debuggable"
+160-->[in.payu:phonepe-intent:1.7.5] C:\Users\ND\.gradle\caches\transforms-3\6e4d51b4206853fabbbb0929a1e4ca34\transformed\jetified-phonepe-intent-1.7.5\AndroidManifest.xml:15:13-62
+161            android:value="false" /> <!-- Keep it true in testing environment -->
+161-->[in.payu:phonepe-intent:1.7.5] C:\Users\ND\.gradle\caches\transforms-3\6e4d51b4206853fabbbb0929a1e4ca34\transformed\jetified-phonepe-intent-1.7.5\AndroidManifest.xml:16:13-34
+162        <meta-data
+162-->[in.payu:phonepe-intent:1.7.5] C:\Users\ND\.gradle\caches\transforms-3\6e4d51b4206853fabbbb0929a1e4ca34\transformed\jetified-phonepe-intent-1.7.5\AndroidManifest.xml:19:9-21:37
+163            android:name="com.phonepe.android.sdk.isUAT"
+163-->[in.payu:phonepe-intent:1.7.5] C:\Users\ND\.gradle\caches\transforms-3\6e4d51b4206853fabbbb0929a1e4ca34\transformed\jetified-phonepe-intent-1.7.5\AndroidManifest.xml:20:13-57
+164            android:value="false" />
+164-->[in.payu:phonepe-intent:1.7.5] C:\Users\ND\.gradle\caches\transforms-3\6e4d51b4206853fabbbb0929a1e4ca34\transformed\jetified-phonepe-intent-1.7.5\AndroidManifest.xml:21:13-34
+165
+166        <activity
+166-->[in.payu:phonepe-intent:1.7.5] C:\Users\ND\.gradle\caches\transforms-3\6e4d51b4206853fabbbb0929a1e4ca34\transformed\jetified-phonepe-intent-1.7.5\AndroidManifest.xml:23:9-25:78
+167            android:name="com.payu.phonepe.PayUPhonePeActivity"
+167-->[in.payu:phonepe-intent:1.7.5] C:\Users\ND\.gradle\caches\transforms-3\6e4d51b4206853fabbbb0929a1e4ca34\transformed\jetified-phonepe-intent-1.7.5\AndroidManifest.xml:24:13-64
+168            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
+168-->[in.payu:phonepe-intent:1.7.5] C:\Users\ND\.gradle\caches\transforms-3\6e4d51b4206853fabbbb0929a1e4ca34\transformed\jetified-phonepe-intent-1.7.5\AndroidManifest.xml:25:13-75
+169        <activity
+169-->[in.payu:payu-custom-browser:7.11.12] C:\Users\ND\.gradle\caches\transforms-3\a2fc459e3f30528801a83f3d64c0aba8\transformed\jetified-payu-custom-browser-7.11.12\AndroidManifest.xml:18:9-21:63
+170            android:name="com.payu.custombrowser.CBActivity"
+170-->[in.payu:payu-custom-browser:7.11.12] C:\Users\ND\.gradle\caches\transforms-3\a2fc459e3f30528801a83f3d64c0aba8\transformed\jetified-payu-custom-browser-7.11.12\AndroidManifest.xml:19:13-61
+171            android:screenOrientation="portrait"
+171-->[in.payu:payu-custom-browser:7.11.12] C:\Users\ND\.gradle\caches\transforms-3\a2fc459e3f30528801a83f3d64c0aba8\transformed\jetified-payu-custom-browser-7.11.12\AndroidManifest.xml:20:13-49
+172            android:windowSoftInputMode="stateAlwaysHidden" />
+172-->[in.payu:payu-custom-browser:7.11.12] C:\Users\ND\.gradle\caches\transforms-3\a2fc459e3f30528801a83f3d64c0aba8\transformed\jetified-payu-custom-browser-7.11.12\AndroidManifest.xml:21:13-60
+173        <activity
+173-->[in.payu:payu-custom-browser:7.11.12] C:\Users\ND\.gradle\caches\transforms-3\a2fc459e3f30528801a83f3d64c0aba8\transformed\jetified-payu-custom-browser-7.11.12\AndroidManifest.xml:22:9-24:90
+174            android:name="com.minkasu.android.twofa.sdk.MinkasuSDKActivity"
+174-->[in.payu:payu-custom-browser:7.11.12] C:\Users\ND\.gradle\caches\transforms-3\a2fc459e3f30528801a83f3d64c0aba8\transformed\jetified-payu-custom-browser-7.11.12\AndroidManifest.xml:23:13-76
+175            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden" />
+175-->[in.payu:payu-custom-browser:7.11.12] C:\Users\ND\.gradle\caches\transforms-3\a2fc459e3f30528801a83f3d64c0aba8\transformed\jetified-payu-custom-browser-7.11.12\AndroidManifest.xml:24:13-87
+176
+177        <meta-data
+177-->[in.payu:payu-custom-browser:7.11.12] C:\Users\ND\.gradle\caches\transforms-3\a2fc459e3f30528801a83f3d64c0aba8\transformed\jetified-payu-custom-browser-7.11.12\AndroidManifest.xml:26:9-28:68
+178            android:name="io.sentry.uuid.com.payu.custombrowser"
+178-->[in.payu:payu-custom-browser:7.11.12] C:\Users\ND\.gradle\caches\transforms-3\a2fc459e3f30528801a83f3d64c0aba8\transformed\jetified-payu-custom-browser-7.11.12\AndroidManifest.xml:27:13-65
+179            android:value="23ef0db7-cb05-4a73-96ac-60fe20e2dc84" />
+179-->[in.payu:payu-custom-browser:7.11.12] C:\Users\ND\.gradle\caches\transforms-3\a2fc459e3f30528801a83f3d64c0aba8\transformed\jetified-payu-custom-browser-7.11.12\AndroidManifest.xml:28:13-65
+180        <meta-data
+180-->[in.payu:payu-sdk:5.5.12] C:\Users\ND\.gradle\caches\transforms-3\7fd291de2f9a6a6e3c379043d70b894c\transformed\jetified-payu-sdk-5.5.12\AndroidManifest.xml:12:9-14:68
+181            android:name="io.sentry.uuid.com.payu.india"
+181-->[in.payu:payu-sdk:5.5.12] C:\Users\ND\.gradle\caches\transforms-3\7fd291de2f9a6a6e3c379043d70b894c\transformed\jetified-payu-sdk-5.5.12\AndroidManifest.xml:13:13-57
+182            android:value="0f9fe26b-7849-4133-ad3e-1c18ea2c197b" />
+182-->[in.payu:payu-sdk:5.5.12] C:\Users\ND\.gradle\caches\transforms-3\7fd291de2f9a6a6e3c379043d70b894c\transformed\jetified-payu-sdk-5.5.12\AndroidManifest.xml:14:13-65
+183
+184        <activity
+184-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:61:9-64:63
+185            android:name="com.payu.upisdk.upiintent.PaymentResponseUpiSdkActivity"
+185-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:62:13-83
+186            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+186-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:63:13-75
+187            android:windowSoftInputMode="stateAlwaysHidden" />
+187-->[in.payu:upisdk:1.6.14] C:\Users\ND\.gradle\caches\transforms-3\7da55c519fe6925be853d007c2eb4570\transformed\jetified-upisdk-1.6.14\AndroidManifest.xml:64:13-60
+188        <activity
+188-->[in.payu:threeds-helper-sdk:1.0.7] C:\Users\ND\.gradle\caches\transforms-3\73ad2475a5d7cb6212eab844692d6fd6\transformed\jetified-threeds-helper-sdk-1.0.7\AndroidManifest.xml:33:9-35:60
+189            android:name="com.wibmo.threeds2.sdk.ui.ChallengeNativeActivity"
+189-->[in.payu:threeds-helper-sdk:1.0.7] C:\Users\ND\.gradle\caches\transforms-3\73ad2475a5d7cb6212eab844692d6fd6\transformed\jetified-threeds-helper-sdk-1.0.7\AndroidManifest.xml:34:13-77
+190            android:theme="@style/CustomAppThemeToolbar" />
+190-->[in.payu:threeds-helper-sdk:1.0.7] C:\Users\ND\.gradle\caches\transforms-3\73ad2475a5d7cb6212eab844692d6fd6\transformed\jetified-threeds-helper-sdk-1.0.7\AndroidManifest.xml:35:13-57
+191        <activity android:name="com.wibmo.threeds2.sdk.ui.ChallengeHtmlActivity" />
+191-->[in.payu:threeds-helper-sdk:1.0.7] C:\Users\ND\.gradle\caches\transforms-3\73ad2475a5d7cb6212eab844692d6fd6\transformed\jetified-threeds-helper-sdk-1.0.7\AndroidManifest.xml:36:9-84
+191-->[in.payu:threeds-helper-sdk:1.0.7] C:\Users\ND\.gradle\caches\transforms-3\73ad2475a5d7cb6212eab844692d6fd6\transformed\jetified-threeds-helper-sdk-1.0.7\AndroidManifest.xml:36:19-81
+192
+193        <service
+193-->[in.payu:threeds-helper-sdk:1.0.7] C:\Users\ND\.gradle\caches\transforms-3\73ad2475a5d7cb6212eab844692d6fd6\transformed\jetified-threeds-helper-sdk-1.0.7\AndroidManifest.xml:38:9-40:40
+194            android:name="com.wibmo.threeds2.sdk.util.location.LocationUpdateService"
+194-->[in.payu:threeds-helper-sdk:1.0.7] C:\Users\ND\.gradle\caches\transforms-3\73ad2475a5d7cb6212eab844692d6fd6\transformed\jetified-threeds-helper-sdk-1.0.7\AndroidManifest.xml:39:13-86
+195            android:exported="false" />
+195-->[in.payu:threeds-helper-sdk:1.0.7] C:\Users\ND\.gradle\caches\transforms-3\73ad2475a5d7cb6212eab844692d6fd6\transformed\jetified-threeds-helper-sdk-1.0.7\AndroidManifest.xml:40:13-37
+196
+197        <meta-data
+197-->[in.payu:threeds-helper-sdk:1.0.7] C:\Users\ND\.gradle\caches\transforms-3\73ad2475a5d7cb6212eab844692d6fd6\transformed\jetified-threeds-helper-sdk-1.0.7\AndroidManifest.xml:42:9-44:54
+198            android:name="payu_sentry_package_name"
+198-->[in.payu:threeds-helper-sdk:1.0.7] C:\Users\ND\.gradle\caches\transforms-3\73ad2475a5d7cb6212eab844692d6fd6\transformed\jetified-threeds-helper-sdk-1.0.7\AndroidManifest.xml:43:13-52
+199            android:value="com.wibmo.threeds2.sdk" />
+199-->[in.payu:threeds-helper-sdk:1.0.7] C:\Users\ND\.gradle\caches\transforms-3\73ad2475a5d7cb6212eab844692d6fd6\transformed\jetified-threeds-helper-sdk-1.0.7\AndroidManifest.xml:44:13-51
+200
+201        <provider
+201-->[in.payu:payu-crash-logger:1.1.3] C:\Users\ND\.gradle\caches\transforms-3\47ef1378df7ba77f3558d338ba075084\transformed\jetified-payu-crash-logger-1.1.3\AndroidManifest.xml:16:9-24:20
+202            android:name="androidx.startup.InitializationProvider"
+202-->[in.payu:payu-crash-logger:1.1.3] C:\Users\ND\.gradle\caches\transforms-3\47ef1378df7ba77f3558d338ba075084\transformed\jetified-payu-crash-logger-1.1.3\AndroidManifest.xml:17:13-67
+203            android:authorities="com.payubiz.payu_checkoutpro_flutter_example.androidx-startup"
+203-->[in.payu:payu-crash-logger:1.1.3] C:\Users\ND\.gradle\caches\transforms-3\47ef1378df7ba77f3558d338ba075084\transformed\jetified-payu-crash-logger-1.1.3\AndroidManifest.xml:18:13-68
+204            android:exported="false" >
+204-->[in.payu:payu-crash-logger:1.1.3] C:\Users\ND\.gradle\caches\transforms-3\47ef1378df7ba77f3558d338ba075084\transformed\jetified-payu-crash-logger-1.1.3\AndroidManifest.xml:19:13-37
+205            <meta-data
+205-->[in.payu:payu-crash-logger:1.1.3] C:\Users\ND\.gradle\caches\transforms-3\47ef1378df7ba77f3558d338ba075084\transformed\jetified-payu-crash-logger-1.1.3\AndroidManifest.xml:21:13-23:52
+206                android:name="com.payu.crashlogger.CrashProviderInitializer"
+206-->[in.payu:payu-crash-logger:1.1.3] C:\Users\ND\.gradle\caches\transforms-3\47ef1378df7ba77f3558d338ba075084\transformed\jetified-payu-crash-logger-1.1.3\AndroidManifest.xml:22:17-77
+207                android:value="androidx.startup" />
+207-->[in.payu:payu-crash-logger:1.1.3] C:\Users\ND\.gradle\caches\transforms-3\47ef1378df7ba77f3558d338ba075084\transformed\jetified-payu-crash-logger-1.1.3\AndroidManifest.xml:23:17-49
+208            <meta-data
+208-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ND\.gradle\caches\transforms-3\a6c26c2eb41db4f7eba0adaacfcc3cae\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+209                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+209-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ND\.gradle\caches\transforms-3\a6c26c2eb41db4f7eba0adaacfcc3cae\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+210                android:value="androidx.startup" />
+210-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ND\.gradle\caches\transforms-3\a6c26c2eb41db4f7eba0adaacfcc3cae\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+211            <meta-data
+211-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ND\.gradle\caches\transforms-3\60ea375c87e55b2998c762ad8c34095c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+212                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+212-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ND\.gradle\caches\transforms-3\60ea375c87e55b2998c762ad8c34095c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+213                android:value="androidx.startup" />
+213-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ND\.gradle\caches\transforms-3\60ea375c87e55b2998c762ad8c34095c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+214        </provider>
+215
+216        <activity
+216-->[in.payu:threeds-ui-sdk:1.0.5] C:\Users\ND\.gradle\caches\transforms-3\312ee9a5e90de63290f6dc3ab2fa4257\transformed\jetified-threeds-ui-sdk-1.0.5\AndroidManifest.xml:14:9-17:57
+217            android:name="com.payu.threedsui.view.activities.FallbackActivity"
+217-->[in.payu:threeds-ui-sdk:1.0.5] C:\Users\ND\.gradle\caches\transforms-3\312ee9a5e90de63290f6dc3ab2fa4257\transformed\jetified-threeds-ui-sdk-1.0.5\AndroidManifest.xml:15:13-79
+218            android:screenOrientation="portrait"
+218-->[in.payu:threeds-ui-sdk:1.0.5] C:\Users\ND\.gradle\caches\transforms-3\312ee9a5e90de63290f6dc3ab2fa4257\transformed\jetified-threeds-ui-sdk-1.0.5\AndroidManifest.xml:16:13-49
+219            android:windowSoftInputMode="stateHidden" />
+219-->[in.payu:threeds-ui-sdk:1.0.5] C:\Users\ND\.gradle\caches\transforms-3\312ee9a5e90de63290f6dc3ab2fa4257\transformed\jetified-threeds-ui-sdk-1.0.5\AndroidManifest.xml:17:13-54
+220        <activity
+220-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:37:9-40:66
+221            android:name="com.phonepe.intent.sdk.ui.B2BPGActivity"
+221-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:38:13-67
+222            android:exported="false"
+222-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:39:13-37
+223            android:theme="@style/phonepeThemeInvisibleCompat" />
+223-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:40:13-63
+224        <activity
+224-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:41:9-45:67
+225            android:name="com.phonepe.intent.sdk.ui.TransactionActivity"
+225-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:42:13-73
+226            android:configChanges="orientation"
+226-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:43:13-48
+227            android:theme="@style/phonepeThemeInvisibleCompat"
+227-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:44:13-63
+228            android:windowSoftInputMode="stateHidden|adjustPan" />
+228-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:45:13-64
+229
+230        <service
+230-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:47:9-49:40
+231            android:name="com.phonepe.intent.sdk.ui.PreCacheService"
+231-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:48:13-69
+232            android:exported="false" />
+232-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:49:13-37
+233
+234        <activity
+234-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:51:9-53:66
+235            android:name="com.phonepe.intent.sdk.ui.OpenIntentTransactionActivity"
+235-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:52:13-83
+236            android:theme="@style/phonepeThemeInvisibleCompat" />
+236-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:53:13-63
+237        <activity
+237-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:54:9-56:60
+238            android:name="com.phonepe.intent.sdk.ui.UpiAppsSelectionDialogActivity"
+238-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:55:13-84
+239            android:theme="@style/phonepeThemeInvisible" />
+239-->[phonepe.intentsdk.android.release:IntentSDK:1.8.0] C:\Users\ND\.gradle\caches\transforms-3\697d51c65ef72463a94d5460aa3c37ee\transformed\jetified-IntentSDK-1.8.0\AndroidManifest.xml:56:13-57
+240
+241        <uses-library
+241-->[androidx.window:window:1.0.0-beta04] C:\Users\ND\.gradle\caches\transforms-3\66cf4e3ddef4fa70527a905bbea4ea8e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+242            android:name="androidx.window.extensions"
+242-->[androidx.window:window:1.0.0-beta04] C:\Users\ND\.gradle\caches\transforms-3\66cf4e3ddef4fa70527a905bbea4ea8e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+243            android:required="false" />
+243-->[androidx.window:window:1.0.0-beta04] C:\Users\ND\.gradle\caches\transforms-3\66cf4e3ddef4fa70527a905bbea4ea8e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+244        <uses-library
+244-->[androidx.window:window:1.0.0-beta04] C:\Users\ND\.gradle\caches\transforms-3\66cf4e3ddef4fa70527a905bbea4ea8e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+245            android:name="androidx.window.sidecar"
+245-->[androidx.window:window:1.0.0-beta04] C:\Users\ND\.gradle\caches\transforms-3\66cf4e3ddef4fa70527a905bbea4ea8e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+246            android:required="false" />
+246-->[androidx.window:window:1.0.0-beta04] C:\Users\ND\.gradle\caches\transforms-3\66cf4e3ddef4fa70527a905bbea4ea8e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+247
+248        <activity
+248-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\ND\.gradle\caches\transforms-3\d10bcffa27f1547ebb09a16fa75814bd\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:23:9-27:75
+249            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+249-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\ND\.gradle\caches\transforms-3\d10bcffa27f1547ebb09a16fa75814bd\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:24:13-93
+250            android:excludeFromRecents="true"
+250-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\ND\.gradle\caches\transforms-3\d10bcffa27f1547ebb09a16fa75814bd\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:25:13-46
+251            android:exported="false"
+251-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\ND\.gradle\caches\transforms-3\d10bcffa27f1547ebb09a16fa75814bd\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:26:13-37
+252            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+252-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\ND\.gradle\caches\transforms-3\d10bcffa27f1547ebb09a16fa75814bd\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:27:13-72
+253        <!--
+254            Service handling Google Sign-In user revocation. For apps that do not integrate with
+255            Google Sign-In, this service will never be started.
+256        -->
+257        <service
+257-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\ND\.gradle\caches\transforms-3\d10bcffa27f1547ebb09a16fa75814bd\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:33:9-37:51
+258            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+258-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\ND\.gradle\caches\transforms-3\d10bcffa27f1547ebb09a16fa75814bd\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:34:13-89
+259            android:exported="true"
+259-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\ND\.gradle\caches\transforms-3\d10bcffa27f1547ebb09a16fa75814bd\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:35:13-36
+260            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+260-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\ND\.gradle\caches\transforms-3\d10bcffa27f1547ebb09a16fa75814bd\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:36:13-107
+261            android:visibleToInstantApps="true" />
+261-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\ND\.gradle\caches\transforms-3\d10bcffa27f1547ebb09a16fa75814bd\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:37:13-48
+262
+263        <activity
+263-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ND\.gradle\caches\transforms-3\4b99ca76c38a57a77b65bd4ea095bfed\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+264            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+264-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ND\.gradle\caches\transforms-3\4b99ca76c38a57a77b65bd4ea095bfed\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+265            android:exported="false"
+265-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ND\.gradle\caches\transforms-3\4b99ca76c38a57a77b65bd4ea095bfed\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+266            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+266-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ND\.gradle\caches\transforms-3\4b99ca76c38a57a77b65bd4ea095bfed\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+267
+268        <meta-data
+268-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ND\.gradle\caches\transforms-3\e7652e4568cded440f0266c75eb22ab3\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+269            android:name="com.google.android.gms.version"
+269-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ND\.gradle\caches\transforms-3\e7652e4568cded440f0266c75eb22ab3\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+270            android:value="@integer/google_play_services_version" />
+270-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ND\.gradle\caches\transforms-3\e7652e4568cded440f0266c75eb22ab3\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+271    </application>
+272
+273</manifest>

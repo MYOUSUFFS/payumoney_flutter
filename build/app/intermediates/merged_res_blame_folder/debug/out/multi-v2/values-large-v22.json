@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.payubiz.payu_checkoutpro_flutter_example.app-mergeDebugResources-53:/values-large-v22/values-large-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ND\\.gradle\\caches\\transforms-3\\a2fc459e3f30528801a83f3d64c0aba8\\transformed\\jetified-payu-custom-browser-7.11.12\\res\\values-large-v22\\values-large-v22.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,148",
+                        "endLines": "2,5",
+                        "endColumns": "92,12",
+                        "endOffsets": "143,310"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.payubiz.payu_checkoutpro_flutter_example.app-mergeDebugResources-53:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ND\\.gradle\\caches\\transforms-3\\acba16c45dda35042031c4aed31bfcd7\\transformed\\appcompat-1.4.2\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ND\\.gradle\\caches\\transforms-3\\697d51c65ef72463a94d5460aa3c37ee\\transformed\\jetified-IntentSDK-1.8.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "168"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "294",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "407"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ND\\.gradle\\caches\\transforms-3\\1f32c5f57fc180f86d1e5fe6cfe09d78\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

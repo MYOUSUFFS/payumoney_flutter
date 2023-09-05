@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.payubiz.payu_checkoutpro_flutter_example.app-mergeDebugResources-53:/values-v26/values-v26.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ND\\.gradle\\caches\\transforms-3\\7da55c519fe6925be853d007c2eb4570\\transformed\\jetified-upisdk-1.6.14\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "614"
+                    },
+                    "to": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "889",
+                        "endLines": "25",
+                        "endColumns": "12",
+                        "endOffsets": "1448"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ND\\.gradle\\caches\\transforms-3\\acba16c45dda35042031c4aed31bfcd7\\transformed\\appcompat-1.4.2\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,381,557,796",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,376,552,791,884"
+                    }
+                }
+            ]
+        }
+    ]
+}

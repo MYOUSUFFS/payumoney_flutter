@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.payubiz.payu_checkoutpro_flutter_example.app-mergeDebugResources-53:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ND\\.gradle\\caches\\transforms-3\\acba16c45dda35042031c4aed31bfcd7\\transformed\\appcompat-1.4.2\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,487",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,482,764"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ND\\.gradle\\caches\\transforms-3\\a2fc459e3f30528801a83f3d64c0aba8\\transformed\\jetified-payu-custom-browser-7.11.12\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,148",
+                        "endLines": "2,5",
+                        "endColumns": "92,12",
+                        "endOffsets": "143,310"
+                    },
+                    "to": {
+                        "startLines": "14,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "769,862",
+                        "endLines": "14,17",
+                        "endColumns": "92,12",
+                        "endOffsets": "857,1024"
+                    }
+                }
+            ]
+        }
+    ]
+}
